@@ -1,0 +1,24 @@
+.some-search{
+    border: 1px solid rgb(184, 172, 172);
+    border-radius: 15px;
+    padding: 10px;
+    width: 1000px;
+    margin-bottom: 30px;
+  }
+  .some-search::placeholder{
+    color:rgb(184,172,172);
+    outline: none;
+  }
+  .button-search{
+    padding:10px;
+    border:none;
+    background-color: rgb(9, 150, 231);
+    color: white;
+  }
+  /* #try{
+    background:rgb(25, 22, 207);
+  } */
+  .button-search:hover{
+   background-color: rgb(7, 81, 124);
+   transition: .2 ease-in;
+  }
